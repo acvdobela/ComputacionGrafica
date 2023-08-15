@@ -257,7 +257,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7739018102989292448, guid: 4ab30b5266869834490fedf0c9458ce3, type: 3}
       propertyPath: InitialModule.rotation3D
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7739018102989292448, guid: 4ab30b5266869834490fedf0c9458ce3, type: 3}
       propertyPath: EmissionModule.m_BurstCount
@@ -374,29 +374,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 845659672342325268, guid: 4ab30b5266869834490fedf0c9458ce3, type: 3}
   m_PrefabInstance: {fileID: 273207377}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &273207379 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4778170496044414078, guid: 4ab30b5266869834490fedf0c9458ce3, type: 3}
-  m_PrefabInstance: {fileID: 273207377}
-  m_PrefabAsset: {fileID: 0}
---- !u!320 &273207380
-PlayableDirector:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 273207379}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: 03ee030e7577efe408e33ddb37fe95ef, type: 2}
-  m_InitialState: 1
-  m_WrapMode: 2
-  m_DirectorUpdateMode: 1
-  m_InitialTime: 0
-  m_SceneBindings: []
-  m_ExposedReferences:
-    m_References:
-    - 690232875dbd8234885fed142669180e: {fileID: 1559930757}
 --- !u!1 &285670992
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,7 +849,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 29.12
+      scalar: 25.4
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -2131,7 +2108,7 @@ ParticleSystem:
     flipU: 0
     flipV: 0
   VelocityModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -11112,7 +11089,7 @@ ParticleSystem:
     donutRadius: 0.2
     m_Position: {x: 0, y: 0, z: 0}
     m_Rotation: {x: 0, y: 0, z: 0}
-    m_Scale: {x: 1, y: 1, z: 0.44}
+    m_Scale: {x: 1, y: 1, z: 0.42}
     placementMode: 0
     m_MeshMaterialIndex: 0
     m_MeshNormalOffset: 0
@@ -11310,7 +11287,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 4.41
+      scalar: 10
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -12039,7 +12016,7 @@ ParticleSystem:
     z:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 0.16
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -12198,7 +12175,7 @@ ParticleSystem:
     orbitalZ:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 1.35
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -12463,7 +12440,7 @@ ParticleSystem:
     speedModifier:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 3.33
+      scalar: 2.97
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -14426,7 +14403,7 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    minVertexDistance: 8.96
+    minVertexDistance: 0.2
     textureMode: 0
     ribbonCount: 1
     shadowBias: 26.47

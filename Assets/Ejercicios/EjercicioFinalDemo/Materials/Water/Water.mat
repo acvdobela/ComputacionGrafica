@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Water
+  m_Shader: {fileID: -6465566751694194690, guid: 7debd81f520519e459721a4817420d67,
+    type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    RenderType: Transparent
+  disabledShaderPasses:
+  - DepthOnly
+  m_LockedProperties: 
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Displacement_Noise:
+        m_Texture: {fileID: 2800000, guid: 157aa05ece27cbf4e8f85820fbb3c593, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Displacement_Noise_Texture:
+        m_Texture: {fileID: 2800000, guid: 157aa05ece27cbf4e8f85820fbb3c593, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Texture_R_Base_Texture_G_Mask_B_UV_Distorsion:
+        m_Texture: {fileID: 2800000, guid: 4d90f34872c031a4490adc2cbdf39103, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaClip: 0
+    - _Blend: 0
+    - _CastShadows: 1
+    - _Cull: 2
+    - _Depth_Fade_Distance: 0
+    - _DstBlend: 10
+    - _Fire_Noise_Intensity: 0.05
+    - _Fire_Noise_UV_Distortion_Intensity: 0
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    - _SrcBlend: 5
+    - _Surface: 1
+    - _UV_Masking_Bottom_0_Left_1: 0
+    - _Vertex_Offset_Intensity: 0.2
+    - _ZTest: 4
+    - _ZWrite: 0
+    - _ZWriteControl: 0
+    m_Colors:
+    - _Fire_Color_A: {r: 2.190881, g: 1.5618817, b: 0, a: 0}
+    - _Fire_Color_B: {r: 5.5908804, g: 3.044249, b: 1.3172232, a: 0}
+    - _Fire_Noise_Tiling_and_Offset_Speed: {r: 1, g: 1, b: 0, a: 0}
+    - _Fire_Noise_UV_Distortion_Tiling_and_Offset_Speed: {r: 1, g: 1, b: 0, a: 0}
+    - _SmoothStep: {r: 0, g: 1, b: 0, a: 0}
+    - _Vertex_Offset_Tiling_and_Offset_Speed: {r: 1, g: 1, b: 0, a: 0.5}
+    - _Water_Caustics_Tiling_and_Offset_Speed: {r: 3, g: 2, b: 0.1, a: 0.6}
+    - _Water_Color_A: {r: 0, g: 0.09999988, b: 1, a: 0}
+    - _Water_Color_B: {r: 0, g: 0.41377342, b: 0.4811321, a: 0}
+    - _Water_Noise_Tiling_and_Offset_Speed: {r: 1, g: 1, b: 0.2, a: 0.5}
+    - _Water_Noise_UV_Distortion_Tiling_and_Offset_Speed: {r: 1, g: 1, b: 4, a: 4}
+  m_BuildTextureStacks: []
+--- !u!114 &6900815971408737476
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 7

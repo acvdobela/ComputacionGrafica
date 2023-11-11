@@ -99,9 +99,9 @@ Material:
     - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
-    - _Color: {r: 0.03422214, g: 0, b: 0.4811321, a: 1}
+    - _Color: {r: 0.4811321, g: 0, b: 0.28461868, a: 1}
     - _Color_1: {r: 1, g: 1, b: 1, a: 1}
-    - _Color_2: {r: 4, g: 3.2546103, b: 0, a: 1}
+    - _Color_2: {r: 1, g: 0.9837792, b: 0, a: 1}
     - _Drops_Speed: {r: 0.01, g: -0.1, b: 0, a: 0}
     - _Mesh_Displacement_Speed: {r: 0.5, g: 0.5, b: 0, a: 0}
     - _Speed: {r: 0.01, g: 0.3, b: 0, a: 0}

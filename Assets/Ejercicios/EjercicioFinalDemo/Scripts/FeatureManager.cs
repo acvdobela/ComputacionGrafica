@@ -1,12 +1,14 @@
 using UnityEngine;
+using UnityEngine.UI;
+
+public enum Effect { Bonfire, Water, Rock }
 
 public class FeatureManager : MonoBehaviour
 {
     public static FeatureManager Instance;
-    public enum Effect { Bonfire, Water, Rock }
     public Effect CurrentEffect;
     private bool firstColorChange;
-
+    
     [Header("Bonfire")]
     [SerializeField] private ParticleSystem bonfire_fire_a;
     [SerializeField] private ParticleSystem bonfire_fire_b;
@@ -48,7 +50,18 @@ public class FeatureManager : MonoBehaviour
         if (Instance == null) Instance = this;
         else Destroy(gameObject);
         firstColorChange = false;
-        
+        SetColors();
+    }
+
+    private void SetColors()
+    {
+        CurrentEffect = Effect.Bonfire;
+        SetMainColor(0.27f);
+        SetSecondaryColor(0.35f);
+        CurrentEffect = Effect.Water;
+        SetMainColor(0.27f);
+        SetSecondaryColor(0.35f);
+        CurrentEffect = Effect.Rock;
         SetMainColor(0.27f);
         SetSecondaryColor(0.35f);
     }

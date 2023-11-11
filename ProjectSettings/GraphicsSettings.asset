@@ -3,7 +3,7 @@
 --- !u!30 &1
 GraphicsSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 14
+  serializedVersion: 15
   m_Deferred:
     m_Mode: 1
     m_Shader: {fileID: 69, guid: 0000000000000000f000000000000000, type: 0}
@@ -13,9 +13,6 @@ GraphicsSettings:
   m_ScreenSpaceShadows:
     m_Mode: 1
     m_Shader: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
-  m_LegacyDeferred:
-    m_Mode: 1
-    m_Shader: {fileID: 63, guid: 0000000000000000f000000000000000, type: 0}
   m_DepthNormals:
     m_Mode: 1
     m_Shader: {fileID: 62, guid: 0000000000000000f000000000000000, type: 0}
@@ -37,6 +34,42 @@ GraphicsSettings:
   - {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
   - {fileID: 10783, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: -6465566751694194690, guid: adba7ec9f1c195d4ba27de20d7bc3e20, type: 3}
+  - {fileID: -6465566751694194690, guid: 50efa89440024f44bb2af451409644f2, type: 3}
+  - {fileID: -6465566751694194690, guid: 74d904c4d20643440acee4197b6f2ce7, type: 3}
+  - {fileID: -6465566751694194690, guid: c94c3e4bedd885d48919f543a4c97d31, type: 3}
+  - {fileID: -6465566751694194690, guid: ab0e27043bfabca4ba226dd919a2823c, type: 3}
+  - {fileID: -6465566751694194690, guid: 766511c323487b54cb3eda13ae35a2c2, type: 3}
+  - {fileID: -6465566751694194690, guid: 4d7a71d0c0be4504db53bf8a395d4f22, type: 3}
+  - {fileID: -6465566751694194690, guid: ca00eed23af808c4fbcc6f6e163d585e, type: 3}
+  - {fileID: -6465566751694194690, guid: 0ea87f48441ae464a90848ffe563f79b, type: 3}
+  - {fileID: -6465566751694194690, guid: 622d9bccde7d9f54582fbdc3736cf51f, type: 3}
+  - {fileID: -6465566751694194690, guid: 44d62a0038d62584bb5edaf9f3b49edb, type: 3}
+  - {fileID: -6465566751694194690, guid: cf00268db0451d14a87c7abf5f0f57f7, type: 3}
+  - {fileID: -6465566751694194690, guid: 16d0da7d69408d64fbc567d28f3b1bda, type: 3}
+  - {fileID: -6465566751694194690, guid: c3c6531124448804bb6073b6d2b65dfc, type: 3}
+  - {fileID: -6465566751694194690, guid: 5d8bccf878a9e344da9d6c48418b0ce3, type: 3}
+  - {fileID: -6465566751694194690, guid: d3a7c029b60587143bf5db38b6daa0c9, type: 3}
+  - {fileID: -6465566751694194690, guid: 405bdd64e3578b9408989a0f4a5b627a, type: 3}
+  - {fileID: -6465566751694194690, guid: 13c91453be49a58478e6ade930aac14d, type: 3}
+  - {fileID: -6465566751694194690, guid: 8a6c791fafd26cb4b922e8f39a476a4c, type: 3}
+  - {fileID: 4800000, guid: 128e987d567d4e2c824d754223b3f3b0, type: 3}
+  - {fileID: 4800000, guid: 48bb5f55d8670e349b6e614913f9d910, type: 3}
+  - {fileID: 4800000, guid: 1e3b057af24249748ff873be7fafee47, type: 3}
+  - {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+  - {fileID: 4800000, guid: dd89cf5b9246416f84610a006f916af7, type: 3}
+  - {fileID: 4800000, guid: 14eb328de4b8eb245bb7cea29e4ac00b, type: 3}
+  - {fileID: 4800000, guid: fe393ace9b354375a9cb14cdbbc28be4, type: 3}
+  - {fileID: 4800000, guid: bc1ede39bf3643ee8e493720e4259791, type: 3}
+  - {fileID: 4800000, guid: a02a7d8c237544f1962732b55a9aebf1, type: 3}
+  - {fileID: 4800000, guid: c8d12adcee749c344b8117cf7c7eb912, type: 3}
+  - {fileID: 4800000, guid: f7ada0af4f174f0694ca6a487b8f543d, type: 3}
+  - {fileID: 4800000, guid: 85187c2149c549c5b33f0cdb02836b17, type: 3}
+  - {fileID: 4800000, guid: cf81c85f95fe47e1a27f6ae460cf182c, type: 3}
+  - {fileID: -6465566751694194690, guid: 08c45d532efa12249bf51c18f931066c, type: 3}
+  - {fileID: -6465566751694194690, guid: 8098988a41ebdc146985ca853ef06bba, type: 3}
+  - {fileID: -6465566751694194690, guid: 535b4ab71d55332489cb9c15dc310cb8, type: 3}
+  - {fileID: -6465566751694194690, guid: 7debd81f520519e459721a4817420d67, type: 3}
   m_PreloadedShaders: []
   m_PreloadShadersBatchTimeLimit: -1
   m_SpritesDefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000,
@@ -51,6 +84,7 @@ GraphicsSettings:
   m_LightmapStripping: 0
   m_FogStripping: 0
   m_InstancingStripping: 0
+  m_BrgStripping: 0
   m_LightmapKeepPlain: 1
   m_LightmapKeepDirCombined: 1
   m_LightmapKeepDynamicPlain: 1
@@ -68,3 +102,6 @@ GraphicsSettings:
   m_SRPDefaultSettings:
     UnityEngine.Rendering.Universal.UniversalRenderPipeline: {fileID: 11400000, guid: 18dc0cd2c080841dea60987a38ce93fa,
       type: 2}
+  m_LightProbeOutsideHullStrategy: 0
+  m_CameraRelativeLightCulling: 0
+  m_CameraRelativeShadowCulling: 0
